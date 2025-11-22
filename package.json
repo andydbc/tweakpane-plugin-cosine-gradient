@@ -1,0 +1,21 @@
+{
+  "name": "tweakpane-cosine-gradient",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "author": "Andy Duboc",
+  "license": "MIT",
+  "scripts": {
+    "dev:example": "vite --config vite.config.example.ts",
+    "build:lib": "vite build --config vite.config.lib.ts"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.5",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "tweakpane": "^4.0.5"
+  },
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
+}
