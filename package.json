@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "dev:example": "vite --config vite.config.example.ts",
+    "build:example": "vite build --config vite.config.example.ts",
     "build:lib": "vite build --config vite.config.lib.ts"
   },
   "devDependencies": {
