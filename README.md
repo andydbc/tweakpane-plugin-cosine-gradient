@@ -1,6 +1,6 @@
 # tweakpane-plugin-cosine-gradient
 
-![Gradient Preview](./preview.png)
+![banner](https://github.com/andydbc/tweakpane-plugin-cosine-gradient/raw/main/preview.png)
 
 Cosine gradient controls for [Tweakpane](https://github.com/cocopon/tweakpane/)
 
