@@ -56,4 +56,4 @@ cosineGradientBlade.on('change', (ev:TpChangeEvent<CosineGradient>) => {
 ```
 
 ## References
-The plugin is based on an article written by Inigo Quílez. See the [original article](https://iquilezles.org/articles/palettes/).
+The plugin is based on an article written by Inigo Quilez. See the [original article](https://iquilezles.org/articles/palettes/).
