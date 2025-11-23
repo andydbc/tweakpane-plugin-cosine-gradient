@@ -1,13 +1,11 @@
 import { Pane, TpChangeEvent } from 'tweakpane';
-import { CosineGradientPluginBundle } from '../src/pluginBundle';
-import { CosineGradient } from '../src/model';
-import type { CosineGradientBladeApi } from '../src';
+import * as CosineGradientPlugin from '../src';
+import { CosineGradient, CosineGradientBladeApi } from '../src';
 
 const pane = new Pane({
     title: 'Cosine Gradient Editor',
 });
-
-pane.registerPlugin(CosineGradientPluginBundle);
+pane.registerPlugin(CosineGradientPlugin);
 
 const toCSS = (cosineGradient:CosineGradient): string => {
     const steps = 16;
