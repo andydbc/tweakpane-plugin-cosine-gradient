@@ -9,14 +9,14 @@ Cosine gradient controls for [Tweakpane](https://github.com/cocopon/tweakpane/)
 ## Installation
 
 ```
-npm install tweakpane-plugin-cosine-gradient
+npm install tweakpane-cosine-gradient
 ```
 
 ## Usage
 ```typescript
 import {Pane} from 'tweakpane';
-import * as CosineGradientPlugin from 'tweakpane-plugin-cosine-gradient';
-import { CosineGradient, CosineGradientBladeApi } from 'tweakpane-plugin-cosine-gradient';
+import * as CosineGradientPlugin from 'tweakpane-cosine-gradient';
+import { CosineGradient, CosineGradientBladeApi } from 'tweakpane-cosine-gradient';
 
 const pane = new Pane();
 pane.registerPlugin(CosineGradientPlugin);
