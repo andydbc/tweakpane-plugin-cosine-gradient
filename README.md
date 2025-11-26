@@ -15,8 +15,8 @@ npm install tweakpane-cosine-gradient
 ## Usage
 ```typescript
 import {Pane} from 'tweakpane';
-import * as CosineGradientPlugin from 'tweakpane-cosine-gradient';
-import { CosineGradient, CosineGradientBladeApi } from 'tweakpane-cosine-gradient';
+import * as CosineGradientPlugin from '@andbc/tweakpane-cosine-gradient';
+import { CosineGradient, CosineGradientBladeApi } from '@andbc/tweakpane-cosine-gradient';
 
 const pane = new Pane();
 pane.registerPlugin(CosineGradientPlugin);
