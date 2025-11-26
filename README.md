@@ -9,7 +9,7 @@ Cosine gradient controls for [Tweakpane](https://github.com/cocopon/tweakpane/)
 ## Installation
 
 ```
-npm install tweakpane-cosine-gradient
+npm install @andbc/tweakpane-cosine-gradient
 ```
 
 ## Usage
