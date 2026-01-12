@@ -2,3 +2,22 @@
 	width: calc(100% - 14px);
   height: 20px;
 }
+
+.tp-cosine-gradientv_top-bar {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  width: 100%;
+  /* height: 24px; */
+  /* margin: 0.25rem; */
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0.15rem;
+  border-radius: 15px;
+}
+
+.tp-cosine-gradientv_section-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
