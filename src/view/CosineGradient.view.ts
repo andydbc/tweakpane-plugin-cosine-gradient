@@ -17,9 +17,14 @@ export class CosineGradientView implements View {
             e.stopPropagation();
         });
 
-        
+
         this.canvas = document.createElement('canvas');
         this.canvas.classList.add(className('canvas'));
+
+        this.canvas.width = 1024;
+        this.canvas.height = 200;
+        this.canvas.style.width = '100%';
+        this.canvas.style.height = 'auto';
 
         this.ctx = this.canvas.getContext('2d');
         this.element.appendChild(this.canvas);
